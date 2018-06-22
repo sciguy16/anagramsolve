@@ -46,5 +46,5 @@ else
 fi
 
 AWKTHING=$(wordToAwkThing $WORD)
-echo "awkthing is $AWKTHING"
+#echo "awkthing is $AWKTHING"
 awk "${AWKTHING}" /usr/share/dict/words
